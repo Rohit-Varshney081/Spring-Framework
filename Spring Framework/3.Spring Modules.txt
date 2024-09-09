@@ -1,0 +1,27 @@
+Spring Framework :
+        - It comprises of several modules such as IOC , AOP, DAO, Context, ORM, WEB MVC etc.
+
+        -Spring Core
+                Core
+                beans
+                Context
+                spEL (spring Expression Language)
+        -Other Modules
+                AOP (Aspect Oriented Programming)
+                Aspect
+                Instrumentation
+                Messaging
+        -Data Access/Integration
+                JDBC
+                ORM
+                JMS
+                OXM
+                Transactions
+        -Web
+                Web
+                Servlet
+                Portlet
+                WebSocket
+        -Test
+                --provides support of testing with Junit and testing
+                

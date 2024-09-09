@@ -1,0 +1,5 @@
+List
+Set
+Map
+Properties  // do practical and learn how to inject this collections
+

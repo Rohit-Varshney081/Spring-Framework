@@ -1,0 +1,10 @@
+Constructor Injection:
+	spring supports creating using parameterized constructor.
+
+<constructor-args>
+	<value>b</value>
+</cconstructor-args>
+
+<constructor-args>
+	<ref bean=" "/>
+</cconstructor-args>

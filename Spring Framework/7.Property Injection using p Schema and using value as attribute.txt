@@ -1,0 +1,9 @@
+Primitive Types :
+
+<property name="">
+    <value>Value</value>
+</property>
+
+<property name="" value=""/>
+
+<bean p:property=Value/>

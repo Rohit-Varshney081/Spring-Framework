@@ -1,0 +1,11 @@
+Spring Core
+Spring Data Integration
+Spring WEB
+Spring Other Important Modules
+
+Prerequisites of Course:
+    - Core Java
+    - JDBC
+    - Servlet & JSP
+    - Important Web & Database related terms
+    

@@ -1,0 +1,16 @@
+Reference Type:
+
+A{
+// Dependent class
+}
+
+Reference  Injection :
+<bean>
+	<property name="">
+		<ref bean="B">
+	</property>
+</bean>
+
+B{
+// Dependency class
+}

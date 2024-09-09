@@ -1,0 +1,48 @@
+Spring is a dependency injection framework to make java application loosely coupled.
+
+Spring framework makes the easy development of JavaEE application.
+
+It was developed by ******Rod Johnson****** in 2003.
+    - It is a framework of frameworks as it provides support to various frameworks such as Struts , Hibernate, Tapestry, EJB, JSF.
+
+ADVANTAGES OF SPRING FRAMEWORK :
+    Predefined templates
+    Loose Coupling
+    Easy to Test
+    Light weight
+    Fast development
+    Powerful abstraction
+    Declarative support
+    
+
+
+
+
+
+
+Dependency Injection : It is a design pattern are used to remove dependency from the code.
+                       It makes the code easier to test and maintain.
+
+
+
+class Ramu{
+    Geeta ob;
+    public void doWork(){
+
+    }
+}
+
+class Geeta{
+    public void doWork(){
+
+    }
+}
+
+Inversion of Control : 
+
+Spring and JEE :
+
+UI Layer                Product Controller (Strut/JSF, Spring MVC)
+Business/Services       Product Service (Security,Transaction management)
+Data Access Layer       ProductDao (Spring JDBC,Spring ORM)
+Database                DB

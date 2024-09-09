@@ -1,0 +1,43 @@
+Collection Types:
+// Lists
+    <bean>
+        <property name="">
+            <list>
+                <value>1</value>
+                <value>2</value>
+                <null/>
+            </list>
+        </property>
+    </bean>
+
+// Set
+    <bean>
+        <property name="">
+            <set>
+                <value>1</value>
+                <value>2</value>
+            </set>
+        </property>
+    </bean>
+
+// map
+    <bean>
+        <property name="">
+            <map>
+                <entry key="java" value="1month"/>
+                <entry key="java" value="2month"/>
+            </map>
+        </property>
+    </bean>
+
+// properties
+    <bean>
+        <property name="">
+            <props>
+                <prop key="name">Rohit</prop>
+                <prop key="id">12345</prop>
+            </props>
+        </property>
+    </bean>
+
+

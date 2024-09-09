@@ -1,0 +1,23 @@
+Beans object
+XML Config
+application code
+
+IoC (Inversion of Control) Container is responsible to inject dependency.
+It is also responsible to instantiate the application class, to configure the object and to assemble the dependencies between the objects.
+
+We provide metadata to IoC container either by XML file or annotation.
+
+There are two types of IoC Container :
+        1.BeanFactory
+        2.ApplicationContext
+
+ApplicationContext
+    -It represents our IoC container (also have bean factor properties).
+
+    -It is built on top of the Beanfactory interfacee.
+
+    -It adds some extra functionality than BeanFactory such as simple integration with Spring's AOP, message resource handling (for i18n), event propagation,application layer specific context (e.g.WebApplicationContext) for web application.
+
+    -ClasspathXMLApplicationContext
+    -AnnotationConfigApplicationContext
+    -FileSystemXMLApplicationContext

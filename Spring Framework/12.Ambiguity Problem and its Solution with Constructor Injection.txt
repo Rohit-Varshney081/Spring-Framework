@@ -1,0 +1,1 @@
+In case of constructor based dependency injection if our class contains multiple constructors with different types and same number of arguments then spring framework cause the constructor injection argument type ambiguities issue.

@@ -1,0 +1,19 @@
+Life  Cycle Methods Spring Beans:
+	Spring provide two methods to every bean:
+		// we can change the name of these methods but the signature must we same
+		public void init(){ }	//initialization code loading config, connecting db, webservice etc.
+		public void destroy(){ }	//clean up the code
+
+spring container do following things :
+[Spring Bean LifeCycle] :
+>object create of spring bean or instantiation 
+>set the values of properties
+>call init() method
+>then we read and use the bean 
+>call destroy() before ending the object of bean or clean up code
+>final destroy of object
+
+Configuration Technique:
+>xml
+>Spring Interface
+>Annotation
